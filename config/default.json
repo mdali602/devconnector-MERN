@@ -1,0 +1,7 @@
+{
+  "mongoURI": "mongodb+srv://mdali602:mdali602@cluster0-jq1ia.mongodb.net/test?retryWrites=true&w=majority",
+  "mongoURI_LOCAL": "mongodb://localhost:27017/test",
+  "jwtSecret": "mysecrettoken",
+  "githubClientId": "59f6705d962f9ef3dd32",
+  "githubSecret": "4a82e215c7a8714ea21a2f6a8013f201f40909a9"
+}

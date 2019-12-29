@@ -1,0 +1,51 @@
+link tho Theme building: https://www.youtube.com/watch?v=IFM9hbapeA0&list=PLillGF-Rfqba3xeEvDzIcUCxwMlGiewfV
+
+mdali602
+1like@This
+token:  
+
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNWUwNzJhMDFkOWEwZGMyZmM5ODYyMmJhIn0sImlhdCI6MTU3NzUyODQ3OCwiZXhwIjoxNTc3ODg4NDc4fQ.b60trceQQSTVvpxO-0iqMThwaMWXoz59Vi_y0AqjcNk
+
+{
+	"company": "Eronmicro LLP",
+	"status": "Developer",
+	"website": "http://www.eronmicro.com",
+	"skills": "HTML, CSS, javascript, PHP, React, Angular",
+	"location": "Jankapuri Delhi",
+	"bio": "I am a Developer",
+	"githubusername": "mdali602",
+	"twitter": "https://twitter.com/mdali602",
+	"facebook": "https://facebook.com/mdali602",
+	"youtube": "https://youtube.com/mdali602"
+}
+
+
+meeraj
+1likeTh
+token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNWUwNzJhNzlkOWEwZGMyZmM5ODYyMmJiIn0sImlhdCI6MTU3NzUyNzkzMCwiZXhwIjoxNTc3ODg3OTMwfQ.7k90JsVOLgMBFX2vIS5ahZwmthTKRkBgwRbN1q64UUw
+
+{
+	"company": "Publicis Sapient",
+	"status": "Developer",
+	"website": "http://www.google.com",
+	"skills": "HTML, CSS, javascript, Node",
+	"location": "Gurugram",
+	"bio": "I am a Sr Developer",
+	"githubusername": "meeraj.ahmed",
+	"twitter": "https://twitter.com/meeraj.ahmed",
+	"facebook": "https://facebook.com/meeraj.ahmed",
+	"youtube": "https://youtube.com/meeraj.ahmed"
+}
+
+
+
+cd client
+
+npm i -S axios react-router-dom redux react-redux redux-thunk redux-devtools-extension moment react-moment
+
+vs code extension
+auto rename tag(rename closing tag automatically)
+es7 react ( to add react snippet --rafc)
+colorizer(Bracket pair colorizer) 
+turbo console log(TCL)
+Prettier (code formater)
