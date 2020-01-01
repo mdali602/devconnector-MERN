@@ -60,11 +60,9 @@ const EditProfile = ({
       linkedin: loading || !profile.social.linkedin ? '' : profile.social.linkedin,
       youtube: loading || !profile.social.youtube ? '' : profile.social.youtube,
       instagram: loading || !profile.social.instagram ? '' : profile.social.instagram
-    });
-    /* return () => {
-      cleanup
-    }; */
-  }, [loading]);
+    }, [loading, getCurrentProfile]);
+  }, [loading, getCurrentProfile, profile]);
+  
   const handleChange = event => {
     event.preventDefault();
     setFormData({

@@ -228,5 +228,5 @@ const CreateProfile = ({ createProfile, history }) => {
 CreateProfile.propTyes = {
   createProfile: PropTypes.func.isRequired
 };
-const mapStateToProps = state => ({});
+// const mapStateToProps = state => ({});
 export default connect(null, { createProfile })(withRouter(CreateProfile));

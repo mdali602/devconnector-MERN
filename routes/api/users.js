@@ -25,20 +25,14 @@ router.post(
     ).isLength({ min: 6 })
   ],
   async (req, res) => {
-    console.log('TCL: req $$$$$$$$$$$$$$$$$$$', req);
 
     const errors = validationResult(req);
-    console.log('TCL: req', req && req.body);
     if (!errors.isEmpty()) {
-      console.log('TCL: errors', errors);
       return res.status(400).json({ errors: errors.array() });
     }
     console.log(req.body);
 
     const { name, email, password } = req.body;
-    console.log('TCL: name', name);
-    console.log('TCL: email', email);
-    console.log('TCL: password', password);
 
     try {
       // See if user exist
@@ -82,10 +76,8 @@ router.post(
         { expiresIn: 360000 },
         (err, token) => {
           if (err) {
-            console.log('TCL: err', err);
             throw err;
           }
-          console.log('TCL: token', token);
           res.json({ token });
         }
       );
